@@ -1,0 +1,146 @@
+.herosection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.herosection .section{
+    max-width: 1048px;
+    margin: auto;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
+}
+.herosection .section .herocard .herodata{
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.herosection .section .herocard .herodata .heroleft,.herosection .section .herocard .herodata .heroright{
+    padding: 40px 20px;
+}
+
+.herosection .section .herocard .herodata .heroleft .herolefttop,.herosection .section .herocard .herodata .heroleft .heroleftbottom{
+    padding: 0 40px;
+}
+.herosection .section .herocard .herodata .heroleft .herolefttop .herotitle{
+    color: #191c1f;
+    padding-left: 16px;
+    margin-bottom: 30px;
+    font-size: 34px;
+    line-height: 40px;
+    word-break: break-word;
+    font-family: Basier Circle,sans-serif;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0.00735em;
+}
+.herosection .section .herocard .herodata .heroleft .herolefttop .herosubtitle{
+    color: #191c1f;
+    padding-left: 16px;
+    margin-bottom: 75px !important;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -.00625em;
+    word-break: break-word;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif;
+    font-weight: 500;
+}
+.herosection .section .herocard .herodata .heroleft .heroleftbottom{
+    margin-bottom: 75px !important;
+    display: flex;
+    align-items: center;
+}
+.herosection .section .herocard .herodata .heroleft .heroleftbottom .herobtn{
+    text-decoration: none;
+    padding-left: 16px;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -.00625em;
+    word-break: break-word;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif;
+    font-weight: 500;
+    color: rgb(11, 110, 249);
+}
+.herosection .section .herocard .herodata .heroleft .heroleftbottom .arrowicon{
+    margin-right: -4px;
+    margin-left: 8px;
+    font-size: 22px;
+    color: rgb(11, 110, 249);
+}
+
+@media (max-width:1048px){
+    .herosection .section .herocard .herodata .heroright{
+        width: auto;
+        height: auto;
+    }
+    .herosection .section .herocard .herodata .heroright .image{
+        width: 40vw;
+        height: auto;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .herosection .section {
+        padding-left: 0px;
+        padding-right: 0px;}
+}
+@media (max-width:768px){
+    .herosection .section .herocard .herodata .heroleft .herolefttop .herotitle{
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+    .herosection .section .herocard .herodata{
+        min-height: 350px;
+    }
+    .herosection .section .herocard .herodata .heroleft .herolefttop .herosubtitle{
+        font-size: 16px;
+        margin-top: 16px;
+        margin-bottom: 30px !important;
+    }
+    .herosection .section .herocard .herodata .heroleft .herolefttop,.herosection .section .herocard .herodata .heroleft .heroleftbottom{
+        padding: 0px !important;
+    }
+    .herosection .section .herocard .herodata .heroleft .heroleftbottom{
+        display: flex;
+        justify-content: center;
+    }
+    .herosection .section .herocard .herodata .heroright .image{
+        width: 275px;
+        height: 324px;
+    }
+    .herosection .section .herocard .herodata .heroleft .heroleftbottom .herobtn{
+        font-size: 16px;
+    display: flex;
+    }
+}
+@media  (min-width:300px) and (max-width:600px) {
+    .herosection .section .herocard .herodata{
+        display: block;
+    }
+    .herosection .section .herocard .herodata .heroright {
+        display: flex;
+        justify-content: center;
+    }
+    .herosection .section{
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+    }
+    
+.herosection .section .herocard {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.herosection .section .herocard .herodata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.herosection .section .herocard .herodata .heroleft .heroleftbottom {
+    margin-bottom: 30px !important;
+}
+.herosection .section .herocard .herodata .heroright .image{
+    width: 236px;
+    height: 230px;
+}
+}

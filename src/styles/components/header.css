@@ -1,0 +1,194 @@
+.head-section{
+    background-color: #eceff1;
+
+    box-shadow: none !important;
+}
+.head-section .header{
+    width: 100%;
+}
+.head-section .header .header-content{
+    width: 1048px;
+    margin: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+.head-section .header .header-content .header-data{
+    display: flex;
+    justify-content: space-between !important;
+}
+.head-section .header .header-content .header-data .headerleft{
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+.head-section .header .header-content .header-data .headerleft .header-img{
+    margin-right: 10px;
+}
+.head-section .header .header-content .header-data .headerleft .headertxt{
+    color: #000;
+    
+}
+.head-section .header .header-content .header-data .headerleft .link{
+    text-decoration: none;
+}
+.head-section .header .header-content .header-data .headerleft .headertxt{
+    font-size: 14px;
+    color: #191c1f;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    padding: .5rem .75rem;
+    transition: all .15s ease 0s;
+    white-space: nowrap;
+    min-width: min-content;
+    display: block;
+    box-shadow: none;
+    word-break: break-word;
+}
+.head-section .header .header-content .header-data .headerleft .headertxt:hover{
+    color: #0052cc;
+}
+.head-section .header .header-content .header-data .btn .logbtn,
+.head-section .header .header-content .header-data .btn .signbtn{
+    color: #000;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 16px;
+    width: max-content;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif;
+    font-weight: 500;
+    letter-spacing: -.00625em;
+    text-align: center;
+}
+.head-section .header .header-content .header-data .btn .logbtn{
+    background-color: #fff;
+}
+.head-section .header .header-content .header-data .btn .signbtn{
+    background-color: #000;
+    color: #fff;
+}
+.head-section .header .header-content .header-data .btn .menubtn{
+    display: none;
+    cursor: pointer;
+    
+}
+.head-section .header .megamenu{
+    display: none;
+}
+
+@media(max-width:1100px){
+    .head-section .header .header-content{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width:800px){
+    .head-section .header .header-content .header-data{
+        position: relative;
+        width: 100%;
+    }
+    .head-section .header .header-content .header-data .headerleft .headertxt{
+        display: none;
+    }
+    .head-section .header .header-content .header-data .btn .logbtn,
+.head-section .header .header-content .header-data .btn .signbtn{
+    display:none;
+ }
+ .head-section .header .header-content .header-data .btn .menubtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        background-color: #fff;
+        padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -.00625em;
+    text-align: center;
+    margin-left: auto;
+    height: 32px;
+    width: 20px;
+    color: #191c1f;
+    }
+    .head-section .header .header-content .header-data .btn .menu{
+       
+        color:#000;
+        width: 16px;
+        height: 16px;
+    }
+    .head-section .header .megamenu{
+        display: block;
+    position: absolute;
+    top: 80%;
+    width: 94%;
+        /* background-color: #fff; */
+        border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 5px -3px, rgba(0, 0, 0, 0.14) 0px 8px 10px 1px, rgba(0, 0, 0, 0.12) 0px 3px 14px 2px;
+    }
+    .megamenu .menu{
+ 
+        padding: 14px 16px;
+    }
+    .link{
+        color: #191c1f;
+        cursor: pointer;
+        background: transparent;
+        border: none;
+        
+        margin-left: .25rem;
+        margin-right: .25rem;
+        padding: .5rem .75rem;
+        text-decoration: none;
+        display: block;
+        
+    }
+    .megamenu .menudata{
+        padding: 8px;
+        background-color: #fff;
+        border-radius: 8px;
+    }
+    .megamenu .btn{
+        justify-content: center;
+    display: flex;
+        padding: 6px 16px;
+        background-color: #f1f2f4;
+    box-shadow: 0 -1px 0 rgb(25 28 31/4%), 0 8px 16px rgb(25 28 31/4%), 0 14px 28px rgb(25 28 31/4%);
+    justify-content: center;
+    }
+    .megamenu .menudata .btn .logbtn,
+    .megamenu .menudata .btn .signbtn{
+        margin-top: 8px;
+    color: #000;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-left: 16px;
+    width: max-content;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif;
+    font-weight: 500;
+    letter-spacing: -.00625em;
+    text-align: center;
+}
+.megamenu .menudata .btn .logbtn{
+    background-color: #fff;
+}
+.megamenu .menudata .btn .signbtn{
+    background-color: #000;
+    color: #fff;
+}
+}
+
+@media (max-width:500px){
+    .head-section .header .megamenu{
+        width: 91% !important;
+    }
+}

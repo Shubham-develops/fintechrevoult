@@ -1,0 +1,112 @@
+.herobanner{
+    width: 100%;
+    margin-top: 50px;
+    background-color:  #eceff1;
+}
+
+.herobanner .banner{
+    position: relative;
+    width: 100%;
+    /* min-height: auto; */
+}
+.herobanner .banner .banner-image .bannerimage .bannerimg{
+    width: 100% !important;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.herobanner .banner .banner-image .bannerimage .mobileimg{
+    display: none;
+}
+.herobanner .banner .bannerdata{
+    width: inherit;
+        position: absolute;
+        /* z-index: 0; */
+        top: 10%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 150px!important;
+}
+.herobanner .banner .bannerdata .banner-content .preheading{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #505a63;
+    padding-bottom: 15px;
+}
+.herobanner .banner .bannerdata .banner-content .heading{
+    color: #0666eb;
+    font-weight: 600;
+    width: 78%;
+    line-height: 105px;
+    padding-bottom: 15px;
+    margin: auto;
+    font-size: 94px;
+    text-transform: capitalize;
+    /* font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif; */
+}
+.bannerdescription{
+    font-size: 20px;
+    color: #191c1f;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -.00625em;
+    white-space: pre-wrap;
+    /* width: 600px; */
+    text-align: center;
+    margin: auto;
+}
+.herobanner .banner .bannerdata .banner-content .btn{
+    margin-top: 40px;
+    background-color: #191c1f;
+    border: 1px solid #191c1f;
+    /* padding: 6px 16px; */
+}
+.bannerbtn{
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .6s;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif;
+    font-weight: 500;
+    padding: 2px 16px;
+    border-radius: 4px;
+    color: #fff;
+}
+@media (max-width:1023px){
+    .bannerimg{
+        display: none;
+    }
+    .herobanner .banner .banner-image .bannerimage .mobileimg{
+        display: block;
+    width: 100%;
+    height: auto;
+    }
+    .herobanner .banner .bannerdata{
+        position: relative;
+        padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 64px !important;
+    top: 0% !important;
+    background-color: #f3f5f7;
+    }
+    .herobanner .banner .bannerdata .banner-content .preheading{
+        font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 0;
+    }
+    .herobanner .banner .bannerdata .banner-content .heading{
+            font-size: 34px;
+            line-height: 40px;
+    letter-spacing: .2px;
+    min-width: 0;
+    width: 100%;
+    }
+   
+}
+@media (max-width:400px) {
+    .bannerdescription{
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,121 @@
+.columncard{
+    width: 100%;
+    /* display: flex; */
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.columncard .section{
+    margin: auto;
+    max-width: 1048px;
+}
+.columncard .section .colsection{
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+.columncard .section .twocolcardtitle{
+    font-size: 20px;
+    line-height: 24px;
+    color: #505a63;
+    margin-bottom: 16px;
+    font-family: Basier Circle,sans-serif;
+    font-weight: 600;
+}
+.columncard .section .twocolcardsubtitle{
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0 0 2.5rem;
+    text-transform: capitalize;
+    font-family: Basier Circle,sans-serif;
+    font-weight: 600;
+}
+.columncard .section .colsection .cardgroup{
+    display: flex;
+    gap: 25px;
+}
+.columncard .section .twocolcard{
+    margin-top: 0px;
+    /* height: 100%; */
+    width: 49%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #000 transparent;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.columncard .section .twocolcard .coltitle{
+    font-size: 34px;
+    line-height: 40px;
+    font-family: Basier Circle,sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    padding: 24px 16px 0 43px;
+}
+.columncard .section .twocolcard .coltext{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif;
+    font-weight: 500;
+    color: rgb(11, 110, 249);
+    padding: 24px 16px 80px 43px;
+    /* margin-left: 24px; */
+    letter-spacing: -.00625em;
+}
+.columncard .section .twocolcard .colimage{
+    width: 100%;
+    display: flex;
+}
+.columncard .section .twocolcard .colimage .colcardimg{
+    width: 100%;
+    height: auto;
+}
+
+.blackBackground {
+    background-color:#000 !important;
+    color: #fff;
+  }
+  
+  .blueBackground {
+    background-color: #fff !important;
+    color: #000;
+  }
+@media (max-width:800px){
+    .columncard .section .colsection .cardgroup{
+        display: block;
+    }
+    .columncard .section .twocolcard{
+        width: 100%;
+    }
+    .columncard .section .twocolcardsubtitle{
+        font-size: 30px;
+    line-height: 35px;
+    }
+    .columncard .section .twocolcard{
+        margin-bottom: 20px;
+    }
+    .columncard .section .twocolcard .coltitle{
+        font-size: 24px;
+    }
+    .columncard .section .twocolcard .coltext {
+        font-size: 16px;
+    margin-bottom: 20px;
+    padding-top: 0px !important;
+    }
+}
+@media (max-width:400px){
+    .columncard .section .colsection {
+        padding-left: 16px;
+    padding-right: 16px;
+    }
+    .columncard .section .twocolcard .coltitle{
+        line-height: 1.235;
+    }
+    .columncard .section .twocolcard .coltext{
+        margin-left: 26px;
+        padding: 4px 16px 6px;
+    }
+}
+  

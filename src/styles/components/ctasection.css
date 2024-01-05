@@ -1,0 +1,72 @@
+.ctasection{
+    width: 100%;
+    /* font-family: Montserrat; */
+}
+.ctasection .ctacontent{
+    
+    text-align: center;
+}
+.ctasection .ctacontent .ctadescription{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin: auto;
+}
+.ctasection .ctacontent .ctadescription .ctadata .ctatitle{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #505a63;
+    padding-bottom: 15px;
+}
+.ctasection .ctacontent .ctadescription .ctadata .ctasubtitle{
+    font-weight: 600;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-transform: capitalize;
+}
+.ctasection .ctacontent .ctadescription .ctadata .btnbox{
+    margin-top: 20px;
+}
+.ctasection .ctacontent .ctadescription .ctadata .ctabutton{
+    background-color: #191c1f;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Arimo,sans-serif; 
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+@media (max-width:1024px){
+    .ctasection .ctacontent .ctadescription .ctadata{
+        text-align: center;
+    }
+    .ctasection .ctacontent .ctadescription .ctadata .ctasubtitle{
+        font-size: 58px;
+    }
+    .ctasection .ctacontent .ctadescription .ctadata .ctasubtitle{
+        padding: 6px 8px;
+    }
+}
+@media (max-width:768px){
+    
+.ctasection .ctacontent .ctadescription {
+    padding: 30px 16px;
+}
+.ctasection .ctacontent .ctadescription .ctadata .ctatitle{
+    font-size: 16px;
+    line-height: 22px;
+    padding-bottom: 0;
+}
+.ctasection .ctacontent .ctadescription .ctadata .ctasubtitle{
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: .2px;
+    padding-bottom: 15px !important;
+}
+.ctasection .ctacontent .ctadescription .ctadata .ctabutton {
+    margin-top: 20px;
+}
+}
